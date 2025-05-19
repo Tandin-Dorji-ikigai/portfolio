@@ -6,15 +6,20 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build",
-    "predeploy": "npm run build",
+    "build": "parcel build src/index.html --public-url ./",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Tandin-Dorji-ikigai/portfolio.git"
   },
-  "homepage": "https://Tandin-Dorji-ikigai.github.io/portfolio",
+  "keywords": [],
+  "author": "Tandin Dorji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tandin-Dorji-ikigai/portfolio/issues"
+  },
+  "homepage": "https://Tandin-Dorji-ikigai.github.io/portfolio/",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.15.0",
     "gh-pages": "^5.0.0",
