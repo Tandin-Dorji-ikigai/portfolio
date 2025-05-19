@@ -6,23 +6,26 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cobiwave/simplefolio"
+    "url": "git+https://github.com/Tandin-Dorji-ikigai/portfolio.git"
   },
   "keywords": [],
   "author": "Jacobo Martinez",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cobiwave/simplefolio/issues"
+    "url": "https://github.com/Tandin-Dorji-ikigai/portfolio/issues"
   },
-  "homepage": "https://github.com/cobiwave/simplefolio#readme",
+  "homepage": "https://Tandin-Dorji-ikigai.github.io/portfolio",
   "devDependencies": {
-   "@parcel/transformer-sass": "^2.15.0",
+    "@parcel/transformer-sass": "^2.15.0",
     "parcel": "^2.15.0",
-    "prettier": "^2.8.1"
+    "prettier": "^2.8.1",
+    "gh-pages": "^6.0.0"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.6",
